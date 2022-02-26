@@ -3,14 +3,14 @@ import React from "react";
 const Note = (props) => (
   <li className="note">
     <input
-      className="note__title"
       type="text"
       placeholder="Title"
+      className="note__title"
       value={props.note.title}
     />
     <textarea
-      className="note__description"
       placeholder="Description..."
+      className="note__description"
       value={props.note.description}
     />
     <span className="note__delete">X</span>

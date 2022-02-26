@@ -27,7 +27,7 @@ class App extends Component {
         doesMatchSearch: true
       }
     ],
-    searchText: "search for me"
+    searchText: "SEARCH"
   };
   render() {
     return (
